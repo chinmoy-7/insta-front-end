@@ -1,0 +1,51 @@
+.card-container{
+
+    width:20vw;
+    border: 2px solid black;
+    margin-top: 20px;
+    box-shadow: 5px 5px 0px 0px black;
+}
+.card-top{
+    display: flex;
+   
+    justify-content: space-between;
+    width: 100%;
+    height: 7vh;
+    border-bottom: 2px solid black;
+}
+.card-top-right{
+    margin-right: 10px;
+    /* font-size: 50px; */
+}
+.card-mid{
+
+    height: 25vh;
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+.card-bottom{
+    height: 13vh;
+    width: 100%;
+}
+.card-mid>img{
+    width: 100%;
+    height: 100%;
+}
+.card-bottom-top{
+    margin-top:2px;
+    display: flex;
+    justify-content: space-between;
+}
+.card-bottom-top-left img{
+    margin-left: 6px;
+    height: 30px;
+    width: 30px;
+}
+.likes>p{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.likes{
+    margin-left: 10px;
+    font-weight:700;
+}
